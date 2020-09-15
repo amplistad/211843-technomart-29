@@ -7,23 +7,25 @@
   <body>
 
     <header>
-    	<ul>
-    		<li><img src="https://via.placeholder.com/350x65" width="150" alt="логотип Техномарт"></li>
-    		<li>Поиск:</li>
-    		<li>Закладки: </li>
-    		<li>Корзина: </li>
-    		<li><button type="button">Оформить заказ</button></li>
-    	</ul>
-    	 <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+    		<a>
+          <img src="https://via.placeholder.com/350x65" width="150" alt="логотип Техномарт">
+        </a>
+    		<input type="search" placeholder="Поиск:">
+    		<a href="">Закладки:</a>
+    		<a href="">Корзина:</a>
+    		<a href="">Оформить заказ</a>
+
+    	 <h1>
+        <i>Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта</i>
+       </h1>
     	<a href="tel:+78125550555">+7(812)555-05-55</a>
     	<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-    	<button type="button">Войти</button>
-    	<button type="button">Регистрация</button>
+    	<a href="">Войти</a>
+    	<a href="">Регистрация</a>
 
-    	<!-- Меню -->
     	<nav>
     		<ul>
-    			<li><a href="">Главная</a></li>
+    			<li><a href="index.html">Главная</a></li>
     			<li><a href="">Компания</a></li>
     			<li><a href="catalog.html">Каталог</a></li>
     			<li><a href="">Новости</a></li>
@@ -34,10 +36,9 @@
     	</nav>
     </header>
 
-    <!-- контент -->
     <main>
     	<section>
-    		<h2>Преимущества</h2>
+        <h2>Наши предложения</h2>
 	    		<div>
 	    			<h3>Материалы</h3>
 	    			<p>на любой вкус</p>
@@ -50,6 +51,17 @@
     			<h3>Техника</h3>
 	    		<p>Для стройки</p>
     		</div>
+
+        <!-- Слайдер -->
+        <div>
+          <h2>Перфораторы</h2>
+          <p>Настоящие мужские игрушки</p>
+          <img src="https://via.placeholder.com/350x150" alt="Слайдер инструментов">
+          <!-- <a href="">&lt;</a>
+          <a href="">&gt;</a> -->
+          <a href="">открыть каталог</a>
+        </div>
+
     		<div>
     			<h3>Скидки 50%</h3>
 	    		<p>на 350 товаров</p>
@@ -58,31 +70,23 @@
     			<h3>Доставка</h3>
 	    		<p>бесплатно</p>
     		</div>
-    		<aside>
-    			<!-- слайдер по позициям -->
-    			<img src="https://via.placeholder.com/350x150" alt="Слайдер инструментов">
-    			<button type="button">&lt;</button>
-    			<button type="button">&gt;</button>
-    			<button type="button">открыть каталог</button>
-    		</aside>
     	</section>
 
     	<section>
     		<h2>Популярные товары:</h2>
-    		<button type="button">все популярные товары</button>
-
+    		<a href="">все популярные товары</a>
     		<a href="">
     			<article>
-    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 9000">
+    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 9000">
     			<h3>Перфоратор BOSCH BFG 9000</h3>
     			<del>32500 Р.</del>
     			<p>25500 Р.</p>
     		</article>
     		</a>
-    		
+
     		<a href="">
     			<article>
-    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 9000">
+    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 3000">
     			<h3>Перфоратор BOSCH BFG 3000</h3>
     			<del>22500 Р.</del>
     			<p>15500 Р.</p>
@@ -91,7 +95,7 @@
 
     		<a href="">
     			<article>
-    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 9000">
+    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BBOSCH BFG 6000">
     			<h3>Перфоратор BOSCH BFG 6000</h3>
     			<del>30500 Р.</del>
     			<p>25500 Р.</p>
@@ -100,7 +104,7 @@
 
     		<a href="">
     			<article>
-    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 9000">
+    			<img src="https://via.placeholder.com/100x100" alt="Перфоратор BOSCH BFG 2000">
     			<h3>Перфоратор BOSCH BFG 2000</h3>
     			 <p>12500 Р.</p>
     		</article>
@@ -109,7 +113,7 @@
 
     	<section>
     		<h2>Популярные производители:</h2>
-    		<button type="button">Все производители</button>
+    		<a href="">Все производители</a>
     		<ul>
     			<li><img src="https://via.placeholder.com/150x100" alt="производитель bosch"></li>
     			<li><img src="https://via.placeholder.com/150x100" alt="производитель makita"></li>
@@ -125,21 +129,14 @@
     	<section>
     		<h2>Сервисы</h2>
     		<p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
-               Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-    		<dl>
-    			<dt>Доставка</dt>
-    				<dd><h3>Доставка</h3>
-    				<p>Мы с удовольствием доставим ваш товар прямо <br> 
-                       к вашему подъезду совершенно бесплатно!<br>
-                       Ведь мы неплохо заработаем,<br> 
-                       поднимая его на ваш этаж!    					
-    				</p>
-    			    </dd>
-    				<dt>Гарантия</dt>
-                        <dd>Будет текст при клике</dd>
-                    <dt>Кредит</dt>
-                	    <dd>Будет текст при клике</dd>
-    		</dl>
+           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+           <a href="">Доставка</a>
+           <a href="">Гарантия</a>
+           <a href="">Кредит</a>
+           <h3>Доставка</h3>
+           <p>
+             Мы с удовольствием доставим ваш товар прямо<br>к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж!
+           </p>
     	</section>
 
     	<section>
@@ -157,8 +154,7 @@
 
     	<section>
     		<h2>Контакты</h2>
-    		<p>Вы можете забрать товар сами, <br>
-             заехав в наш офис:</p>
+    		<p>Вы можете забрать товар сами,<br>заехав в наш офис:</p>
              <img src="https://via.placeholder.com/250x150" alt=" карта местоположения магазина техномарт">
              <button type="button">Заблудились? Напишите нам!</button>
     	</section>
@@ -167,10 +163,12 @@
     <footer>
     	<section>
     		<img src="https://via.placeholder.com/350x65" width="150" alt="логотип Техномарт">
-    		<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>+7 (812) 555-05-55</p>
+    		<address>
+         г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>+7 (812) 555-05-55
+        </address>
     	</section>
+
     	<section>
-    		<nav>
     			<ul>
     			<li><a href="">Компания</a></li>
     			<li><a href="">Новости</a></li>
@@ -178,16 +176,14 @@
     			<li><a href="catalog.html">Доставка</a></li>
     			<li><a href="">Контакты</a></li>
     		</ul>
-    		</nav>
-    		<nav>
-    			<ul>
+  			  <ul>
     				<li><a href="">Материалы</a></li>
     				<li><a href="">Техника</a></li>
     				<li><a href="">Инструмент</a></li>
     				<li><a href="">Спецпредложения</a></li>
     			</ul>
-    		</nav>
     	</section>
+
     	<div>&copy; 2010–2019 Компания Техномарт <br> Все права защищены</div>
     	<div>
     		<a href="">Vk</a>
